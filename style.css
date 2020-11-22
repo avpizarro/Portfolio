@@ -1,8 +1,6 @@
 body {
-    background-image: url("Assets/Images/rm31-jj-03-g-fabric_1.jpg");
-    width: 100%;
-    position: relative;
-    padding-bottom: 82px;
+    background-image: url("Assets/Images/background.jpg");
+    min-height: 100%;
 }
 
 nav {
@@ -16,10 +14,13 @@ nav {
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navbar-brand {
     padding: 40px;
+    margin-left: 30px;
     background: orange;
     color: white;
     font-weight: 800;
@@ -27,12 +28,13 @@ nav {
     font-size: 1.8em;
     font-family: 'Castoro';
     letter-spacing: 0.025em;
-    line-height: 0%;
+    line-height: 0%;    
 }
 
 .navbar-brand:hover {
     color: darkorange;
 }
+
 .nav-link {
     color: rgb(187, 187, 179);
     float: left;
@@ -40,41 +42,67 @@ nav {
 
 .nav-link:hover{
     color: darkorange;
-
 }
 
 .container {
-    background-image: url("Assets/rm31-jj-03-g-fabric_1.jpg");
-    width: 100%;
-    height: 100%;
+    background-color: white;
+    float: left;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+.row {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h1 {
-    width: 80px;
-    border-bottom: 2px;
-    border-color: #eee;
+    width: 100%;
+    height: 80px;
+    padding: 50px;
+    padding-left: 0;
+    border:0;
+    border-bottom: 3px;
+    border-color:rgb(187, 187, 179);
     border-style: solid;
+    font-weight: 800;
+    font-size: 1.8em;
     font-family: 'Castoro';
+    letter-spacing: 0.025em;
+    line-height: 60%;
     color: orange;
 }
 
-p {
-    padding: 200px;
-    line-height: 2em;
-    text-align: justify;
+.col-sm-12 {
+    margin-top: 20px;
+}
+
+.profileDescription {
+    line-height: 3em;
+    color: rgb(165, 165, 159);
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.profilePicture {
+    display: block;
+    float: left;
+    width: 50%;
+    margin-right: 20px;
 }
 
 footer {
-    height: 82px;
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    bottom: 0px;
+    width:100%;
+    height: 80px;
     background-color: rgb(170, 170, 168);
     border: 0px;
     border-top: 6px;
     border-color: orange;
     border-style: solid;
-
 }
 
 h6 {
@@ -92,11 +120,23 @@ h6 {
       width: 100%;
       margin-right: 0px;
       text-align: center;
+      margin-left: 0;
    }
    .navbar {
        padding: 0px;
+
    }
    .navButtons {
        margin: auto;
    }
+   .container {
+       top: 140px;
+       bottom: 20px;
+   }
+
+   .profilePicture {
+    width: 100%;
 }
+}
+
+
