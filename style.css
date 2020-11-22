@@ -1,7 +1,8 @@
 body {
-    background-image: url("Assets/rm31-jj-03-g-fabric_1.jpg");
+    background-image: url("Assets/Images/rm31-jj-03-g-fabric_1.jpg");
     width: 100%;
-    height: 100%;
+    position: relative;
+    padding-bottom: 82px;
 }
 
 nav {
@@ -29,9 +30,17 @@ nav {
     line-height: 0%;
 }
 
+.navbar-brand:hover {
+    color: darkorange;
+}
 .nav-link {
     color: rgb(187, 187, 179);
     float: left;
+}
+
+.nav-link:hover{
+    color: darkorange;
+
 }
 
 .container {
@@ -54,6 +63,29 @@ p {
     line-height: 2em;
     text-align: justify;
 }
+
+footer {
+    height: 82px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(170, 170, 168);
+    border: 0px;
+    border-top: 6px;
+    border-color: orange;
+    border-style: solid;
+
+}
+
+h6 {
+    color: rgb(212, 212, 209);
+    text-align: center;
+    line-height: 76px;
+    font: 100;
+    font-size: x-small;
+    letter-spacing: -0.08em;
+}
+
 
 @media only screen and (max-width: 768px) {
     .navbar-brand {
