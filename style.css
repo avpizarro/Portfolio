@@ -3,6 +3,8 @@ body {
     min-height: 100%;
 }
 
+/* Navigation Bar */
+
 nav {
     background-color: white;
     border: 0px;
@@ -44,6 +46,8 @@ nav {
     color: darkorange;
 }
 
+/* Content style shared through the website */
+
 .container {
     background-color: white;
     float: left;
@@ -56,6 +60,8 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* Content title */
 
 h1 {
     width: 100%;
@@ -73,6 +79,8 @@ h1 {
     line-height: 60%;
     color: orange;
 }
+
+/* Index.html specific styling */
 
 .col-sm-12 {
     margin-top: 20px;
@@ -92,6 +100,8 @@ h1 {
     width: 50%;
     margin-right: 20px;
 }
+
+/* Footer style and position, maintained trough the website */
 
 footer {
     position: absolute;
@@ -114,6 +124,8 @@ h6 {
     letter-spacing: -0.08em;
 }
 
+/* Breakpoint at 768px to change the navigation bar, content container size and profile picture 
+note: the nav bar styling needs to change at 768px not 640px due to the length of the name*/
 
 @media only screen and (max-width: 768px) {
     .navbar-brand {
@@ -132,6 +144,8 @@ h6 {
    .container {
        top: 140px;
        bottom: 20px;
+       right: 20px;
+       left: 20px;
    }
 
    .profilePicture {
