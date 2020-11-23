@@ -11,22 +11,27 @@ Github repository link: 'https://github.com/avpizarro/Portfolio.git'
 
 ### The website consists of three pages: 
 
- About me.html
+#### About me.html
 
 ![About640](Assets/readmeImages/640-index.png)
-![About960](Assets/readmeImages/960-index.png)
 
 
-Portfolio.html
+
+
+
+#### Portfolio.html
 
 ![Portfolio640](Assets/readmeImages/640-portfolio.png)
-![Portfolio960]Assets/readmeImages/960-portfolio.png)
 
 
-Contact.html
+
+
+
+
+#### Contact.html
 
 ![Contact640](Assets/readmeImages/640-contact.png)
-![Contact960](Assets/readmeImages/960-contact.png)
+
 
 
 
