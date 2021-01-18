@@ -6,7 +6,7 @@ body {
 /* Navigation Bar */
 
 nav {
-    background-color: white;
+    background-color:#eee;
     border: 0px;
     border-bottom: 2px;
     border-color: #eee;
@@ -23,8 +23,8 @@ nav {
 .navbar-brand {
     padding: 40px;
     margin-left: 30px;
-    background: orange;
-    color: white;
+    background: #eee;
+    color:#444;
     font-weight: 800;
     height: 80px;
     font-size: 1.8em;
@@ -34,7 +34,7 @@ nav {
 }
 
 .navbar-brand:hover {
-    color: darkorange;
+    color: rgb(187, 187, 179);
 }
 
 .nav-link {
@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-link:hover{
-    color: darkorange;
+    color: #444;
 }
 
 /* Content style shared through the website */
@@ -66,7 +66,7 @@ nav {
 
 h1 {
     width: 100%;
-    height: 80px;
+    height: 60px;
     padding: 50px;
     padding-left: 0;
     border:0;
@@ -77,8 +77,10 @@ h1 {
     font-size: 1.8em;
     font-family: 'Castoro';
     letter-spacing: 0.025em;
-    line-height: 20%;
-    color: orange;
+    line-height: 180%;
+    color: rgb(187, 187, 179);
+    text-align: right;
+    margin-right: 0px;
 }
 
 /* Style specific to index.html */
@@ -88,7 +90,7 @@ h1 {
 }
 
 .profileDescription {
-    line-height: 3em;
+    line-height: 2em;
     color: rgb(165, 165, 159);
     font-weight: 400;
     margin-top: 0px;
@@ -110,9 +112,12 @@ h1 {
 }
 
 .projectPicture {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
+    box-shadow: 5px 5px 5px #eee;
+    border-radius: 4px;
+
 }
 
 figcaption {
@@ -135,8 +140,34 @@ figcaption {
 }
 
 .btn-primary {
-    background-color: orange;
-    border-color: orange;
+    background-color: #eee;
+    border-color: #eee;
+    color:rgb(187, 187, 179);
+}
+
+.btn:active:focus {
+    background-color: rgb(187, 187, 179) !important;
+    border-color: rgb(187, 187, 179) !important;
+}
+.btn:focus {
+    background-color: rgb(187, 187, 179) !important;
+    border-color: rgb(187, 187, 179) !important;
+}
+
+.btn:hover {
+    background-color: #eee;
+    border-color: #eee;
+    color: #444;
+}
+
+.btn:active {
+    background-color: rgb(187, 187, 179) !important;
+    border-color: rgb(187, 187, 179) !important;
+}
+
+.resume {
+    margin-top: 50px;
+    text-align:center;
 }
 
 /* Footer style and position, maintained trough the website */
@@ -146,15 +177,13 @@ footer {
     bottom: 0px;
     width:100%;
     height: 80px;
-    background-color: rgb(170, 170, 168);
+    background-color: #eee;
     border: 0px;
-    border-top: 6px;
-    border-color: orange;
     border-style: solid;
 }
 
 h6 {
-    color: rgb(212, 212, 209);
+    color: rgb(187, 187, 179);
     text-align: center;
     line-height: 76px;
     font: 100;
@@ -179,6 +208,11 @@ note: the nav bar styling needs to change at 768px not 640px due to the length o
    .navButtons {
        margin: auto;
    }
+
+   h1 {
+       text-align: center;
+   }
+
    .container {
        top: 140px;
        right: 20px;
